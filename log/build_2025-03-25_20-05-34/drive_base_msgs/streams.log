@@ -1,0 +1,216 @@
+[0.081s] Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs -- -j12 -l12
+[2.049s] [  1%] Built target drive_base_msgs__rosidl_generator_type_description
+[2.049s] [  1%] Built target ament_cmake_python_copy_drive_base_msgs
+[2.049s] [  3%] Built target drive_base_msgs__cpp
+[2.049s] [ 25%] Built target drive_base_msgs__rosidl_generator_c
+[2.050s] [ 34%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[2.050s] [ 43%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[2.050s] [ 53%] Built target drive_base_msgs__rosidl_typesupport_c
+[2.050s] [ 79%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[2.050s] [ 79%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[2.051s] [ 81%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[2.051s] [ 81%] Built target drive_base_msgs
+[2.051s] [ 82%] Built target drive_base_msgs__py
+[2.051s] [ 90%] Built target drive_base_msgs__rosidl_generator_py
+[2.052s] [ 93%] Built target drive_base_msgs_s__rosidl_typesupport_fastrtps_c
+[2.052s] [ 96%] Built target drive_base_msgs_s__rosidl_typesupport_introspection_c
+[2.052s] [100%] Built target drive_base_msgs_s__rosidl_typesupport_c
+[2.052s] running egg_info
+[2.053s] writing drive_base_msgs.egg-info/PKG-INFO
+[2.053s] writing dependency_links to drive_base_msgs.egg-info/dependency_links.txt
+[2.053s] writing top-level names to drive_base_msgs.egg-info/top_level.txt
+[2.054s] reading manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[2.054s] writing manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[2.054s] [100%] Built target ament_cmake_python_build_drive_base_msgs_egg
+[2.082s] Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs -- -j12 -l12
+[2.086s] Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs
+[2.134s] -- Install configuration: ""
+[2.135s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs
+[2.135s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.json
+[2.135s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.json
+[2.135s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.json
+[2.136s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.json
+[2.136s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.136s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.137s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.h
+[2.137s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.137s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.h
+[2.137s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__description.c
+[2.138s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.h
+[2.138s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__description.c
+[2.138s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.h
+[2.138s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.c
+[2.139s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__description.c
+[2.139s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.c
+[2.139s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.h
+[2.140s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.h
+[2.141s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.c
+[2.141s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__description.c
+[2.141s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.h
+[2.141s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.c
+[2.142s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.c
+[2.142s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.h
+[2.142s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.c
+[2.150s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.h
+[2.150s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.c
+[2.150s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.h
+[2.151s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.c
+[2.151s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.h
+[2.151s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.h
+[2.152s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.h
+[2.152s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.152s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.h
+[2.152s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.h
+[2.152s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.h
+[2.152s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh
+[2.153s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv
+[2.153s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so
+[2.153s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.153s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.153s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.153s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h
+[2.154s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h
+[2.154s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h
+[2.155s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h
+[2.155s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.155s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so
+[2.155s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.155s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.155s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.hpp
+[2.156s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.156s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.157s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__builder.hpp
+[2.157s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.hpp
+[2.157s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__builder.hpp
+[2.157s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.hpp
+[2.158s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.hpp
+[2.158s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.hpp
+[2.158s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.hpp
+[2.158s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__builder.hpp
+[2.159s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.hpp
+[2.159s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.hpp
+[2.159s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__traits.hpp
+[2.159s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.hpp
+[2.159s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__builder.hpp
+[2.159s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__traits.hpp
+[2.159s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__traits.hpp
+[2.160s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__traits.hpp
+[2.161s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.hpp
+[2.161s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.hpp
+[2.161s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.hpp
+[2.161s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.161s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.161s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.161s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.161s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.162s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/dds_fastrtps
+[2.162s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.162s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp
+[2.162s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.162s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.162s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.163s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.163s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.163s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.163s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+[2.163s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+[2.164s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.c
+[2.164s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+[2.164s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.c
+[2.164s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.c
+[2.164s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+[2.164s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.c
+[2.164s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so
+[2.165s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so
+[2.165s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.165s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.165s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.165s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.cpp
+[2.165s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+[2.165s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+[2.165s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.cpp
+[2.166s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.cpp
+[2.166s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.cpp
+[2.166s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+[2.166s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+[2.166s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so
+[2.166s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so
+[2.166s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh
+[2.166s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv
+[2.167s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info
+[2.176s] -- Installing: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[2.176s] -- Installing: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.177s] -- Installing: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[2.177s] -- Installing: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.177s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs
+[2.177s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.177s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.177s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so
+[2.178s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/__init__.py
+[2.178s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg
+[2.179s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status.py
+[2.179s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header.py
+[2.179s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command.py
+[2.179s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info.py
+[2.180s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status_s.c
+[2.180s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header_s.c
+[2.180s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/__init__.py
+[2.180s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command_s.c
+[2.180s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info_s.c
+[2.182s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c
+[2.182s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.182s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so
+[2.198s] Listing '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs'...
+[2.200s] Listing '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg'...
+[2.214s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.215s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so
+[2.217s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so
+[2.219s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_py.so
+[2.219s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl
+[2.220s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl
+[2.220s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl
+[2.220s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl
+[2.220s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg
+[2.220s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg
+[2.220s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg
+[2.221s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg
+[2.221s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs
+[2.221s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs
+[2.222s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh
+[2.222s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv
+[2.222s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh
+[2.222s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv
+[2.223s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash
+[2.223s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh
+[2.223s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh
+[2.223s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv
+[2.224s] -- Installing: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.dsv
+[2.224s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs
+[2.224s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport.cmake
+[2.225s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.225s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.225s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.225s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cppExport.cmake
+[2.225s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.226s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.227s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.227s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.227s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake
+[2.227s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.228s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.228s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.228s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake
+[2.229s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.230s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport.cmake
+[2.230s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.230s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake
+[2.230s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.231s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.231s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.231s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.231s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.231s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.231s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake
+[2.231s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake
+[2.231s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.xml
+[2.294s] Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs

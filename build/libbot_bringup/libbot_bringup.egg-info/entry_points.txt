@@ -1,0 +1,2 @@
+[console_scripts]
+camera_publisher = libbot_bringup.camera_publisher:main

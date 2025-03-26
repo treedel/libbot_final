@@ -1,0 +1,13 @@
+# Target labels
+ spdlog
+# Source files and their labels
+/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog
+/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog.rule
+/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog-complete.rule
+/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-build.rule
+/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-configure.rule
+/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-download.rule
+/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-install.rule
+/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-mkdir.rule
+/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-patch.rule
+/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-update.rule

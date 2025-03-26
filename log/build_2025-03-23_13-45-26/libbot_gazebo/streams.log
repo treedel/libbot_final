@@ -1,0 +1,21 @@
+[1.230s] Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_gazebo build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/install.log --single-version-externally-managed install_data
+[1.518s] running egg_info
+[1.539s] writing ../../build/libbot_gazebo/libbot_gazebo.egg-info/PKG-INFO
+[1.539s] writing dependency_links to ../../build/libbot_gazebo/libbot_gazebo.egg-info/dependency_links.txt
+[1.540s] writing requirements to ../../build/libbot_gazebo/libbot_gazebo.egg-info/requires.txt
+[1.540s] writing top-level names to ../../build/libbot_gazebo/libbot_gazebo.egg-info/top_level.txt
+[1.582s] reading manifest file '../../build/libbot_gazebo/libbot_gazebo.egg-info/SOURCES.txt'
+[1.582s] adding license file 'LICENSE'
+[1.583s] writing manifest file '../../build/libbot_gazebo/libbot_gazebo.egg-info/SOURCES.txt'
+[1.583s] running build
+[1.583s] running build_py
+[1.583s] running install
+[1.590s] running install_lib
+[1.610s] running install_data
+[1.610s] copying launch/gazebo.launch.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/launch
+[1.611s] running install_egg_info
+[1.632s] removing '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages/libbot_gazebo-0.0.0-py3.12.egg-info' (and everything under it)
+[1.632s] Copying ../../build/libbot_gazebo/libbot_gazebo.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages/libbot_gazebo-0.0.0-py3.12.egg-info
+[1.633s] running install_scripts
+[1.769s] writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/install.log'
+[1.811s] Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_gazebo build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/install.log --single-version-externally-managed install_data

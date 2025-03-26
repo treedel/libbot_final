@@ -1,0 +1,43 @@
+[1.781s] Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_navigation build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/install.log --single-version-externally-managed install_data
+[2.306s] running egg_info
+[2.307s] creating ../../build/libbot_navigation/libbot_navigation.egg-info
+[2.342s] writing ../../build/libbot_navigation/libbot_navigation.egg-info/PKG-INFO
+[2.343s] writing dependency_links to ../../build/libbot_navigation/libbot_navigation.egg-info/dependency_links.txt
+[2.343s] writing requirements to ../../build/libbot_navigation/libbot_navigation.egg-info/requires.txt
+[2.343s] writing top-level names to ../../build/libbot_navigation/libbot_navigation.egg-info/top_level.txt
+[2.343s] writing manifest file '../../build/libbot_navigation/libbot_navigation.egg-info/SOURCES.txt'
+[2.412s] reading manifest file '../../build/libbot_navigation/libbot_navigation.egg-info/SOURCES.txt'
+[2.412s] adding license file 'LICENSE'
+[2.413s] writing manifest file '../../build/libbot_navigation/libbot_navigation.egg-info/SOURCES.txt'
+[2.413s] running build
+[2.413s] running build_py
+[2.413s] creating /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/build
+[2.413s] creating /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/build/lib
+[2.414s] creating /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/build/lib/libbot_navigation
+[2.414s] copying libbot_navigation/__init__.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/build/lib/libbot_navigation
+[2.414s] running install
+[2.424s] running install_lib
+[2.461s] creating /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages/libbot_navigation
+[2.461s] copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/build/lib/libbot_navigation/__init__.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages/libbot_navigation
+[2.462s] byte-compiling /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages/libbot_navigation/__init__.py to __init__.cpython-312.pyc
+[2.462s] running install_data
+[2.463s] creating /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/ament_index
+[2.463s] creating /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/ament_index/resource_index
+[2.463s] creating /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/ament_index/resource_index/packages
+[2.463s] copying resource/libbot_navigation -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/ament_index/resource_index/packages
+[2.464s] copying package.xml -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation
+[2.464s] creating /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation/config
+[2.465s] copying config/nav2_params.yaml -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation/config
+[2.465s] copying config/rviz_config.rviz -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation/config
+[2.465s] copying config/twist_mux.yaml -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation/config
+[2.465s] copying config/dock_database.yaml -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation/config
+[2.465s] creating /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation/launch
+[2.466s] copying launch/navigation.launch.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation/launch
+[2.466s] creating /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation/maps
+[2.466s] copying maps/library_map_v2_sav.yaml -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation/maps
+[2.466s] copying maps/library_map_v2_sav.pgm -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation/maps
+[2.466s] running install_egg_info
+[2.499s] Copying ../../build/libbot_navigation/libbot_navigation.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages/libbot_navigation-0.0.0-py3.12.egg-info
+[2.501s] running install_scripts
+[2.703s] writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/install.log'
+[2.782s] Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_navigation build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/install.log --single-version-externally-managed install_data

@@ -1,0 +1,53 @@
+[3.181s] Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2 -- -j12 -l12
+[3.436s] [ 90%] Built target sllidar_node
+[3.547s] [100%] Built target sllidar_client
+[3.618s] Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2 -- -j12 -l12
+[3.619s] Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2
+[3.701s] -- Install configuration: ""
+[3.703s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch
+[3.703s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[3.704s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[3.704s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[3.704s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[3.704s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[3.704s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[3.704s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[3.704s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[3.705s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[3.705s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[3.705s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[3.705s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[3.706s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[3.706s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[3.706s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[3.706s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[3.706s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[3.707s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[3.707s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[3.707s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[3.707s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[3.707s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[3.707s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[3.707s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[3.708s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/rviz
+[3.708s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[3.708s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[3.708s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[3.708s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[3.708s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[3.709s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[3.709s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[3.709s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[3.709s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[3.709s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[3.710s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[3.710s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[3.710s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[3.712s] -- Installing: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[3.713s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[3.713s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.713s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.713s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[3.713s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[3.714s] -- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[3.717s] Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2

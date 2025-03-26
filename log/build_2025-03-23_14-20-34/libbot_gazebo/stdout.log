@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/libbot_gazebo/libbot_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/libbot_gazebo/libbot_gazebo.egg-info/dependency_links.txt
+writing requirements to ../../build/libbot_gazebo/libbot_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/libbot_gazebo/libbot_gazebo.egg-info/top_level.txt
+reading manifest file '../../build/libbot_gazebo/libbot_gazebo.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/libbot_gazebo/libbot_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying config/bridge.yaml -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/config
+running install_egg_info
+removing '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages/libbot_gazebo-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/libbot_gazebo/libbot_gazebo.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages/libbot_gazebo-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/install.log'

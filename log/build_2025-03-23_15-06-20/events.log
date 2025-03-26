@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.000497] (-) JobUnselected: {'identifier': 'libbot_bringup'}
+[0.000538] (-) JobUnselected: {'identifier': 'libbot_gazebo'}
+[0.000574] (-) JobUnselected: {'identifier': 'libbot_mapping'}
+[0.000613] (-) JobUnselected: {'identifier': 'libbot_navigation'}
+[0.000653] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000693] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.000740] (libbot_lib_interface) JobQueued: {'identifier': 'libbot_lib_interface', 'dependencies': OrderedDict()}
+[0.002278] (libbot_lib_interface) JobStarted: {'identifier': 'libbot_lib_interface'}
+[0.098816] (-) TimerEvent: {}
+[0.199424] (-) TimerEvent: {}
+[0.300623] (-) TimerEvent: {}
+[0.403418] (-) TimerEvent: {}
+[0.504049] (-) TimerEvent: {}
+[0.605384] (-) TimerEvent: {}
+[0.706169] (-) TimerEvent: {}
+[0.808995] (-) TimerEvent: {}
+[0.909553] (-) TimerEvent: {}
+[1.010629] (-) TimerEvent: {}
+[1.111118] (-) TimerEvent: {}
+[1.211733] (-) TimerEvent: {}
+[1.312753] (-) TimerEvent: {}
+[1.413342] (-) TimerEvent: {}
+[1.514673] (-) TimerEvent: {}
+[1.616781] (-) TimerEvent: {}
+[1.717188] (-) TimerEvent: {}
+[1.820640] (-) TimerEvent: {}
+[1.921172] (-) TimerEvent: {}
+[2.021963] (-) TimerEvent: {}
+[2.122579] (-) TimerEvent: {}
+[2.224046] (-) TimerEvent: {}
+[2.324765] (-) TimerEvent: {}
+[2.425672] (-) TimerEvent: {}
+[2.527309] (-) TimerEvent: {}
+[2.591234] (libbot_lib_interface) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/libbot_lib_interface', 'build', '--build-base', '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build', 'install', '--record', '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_lib_interface', 'env': {'USER': 'devesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/lib:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/devesh', 'OLDPWD': '/home/devesh/Butterfly/project_2/libbot_final', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '2222', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3ad3c9ca0276d792be0bc43167df611d', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_STARTER_BUS_TYPE': 'session', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install', 'LOGNAME': 'devesh', '_P9K_SSH_TTY': '/dev/pts/5', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'devesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim-linux64/bin', 'SESSION_MANAGER': 'local/Devesh-O15:@/tmp/.ICE-unix/2222,unix/Devesh-O15:/tmp/.ICE-unix/2222', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/058886f0_fa11_448f_adde_778982f39c83', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.348', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_CONFIG_HOME': '/home/devesh/.config/', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3ad3c9ca0276d792be0bc43167df611d', 'ZDOTDIR': '/home/devesh/.config//zsh/', '_P9K_TTY': '/dev/pts/5', 'PYTHONPATH': '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.627629] (-) TimerEvent: {}
+[2.728243] (-) TimerEvent: {}
+[2.828815] (-) TimerEvent: {}
+[2.930013] (-) TimerEvent: {}
+[3.031835] (-) TimerEvent: {}
+[3.132689] (-) TimerEvent: {}
+[3.233249] (-) TimerEvent: {}
+[3.267693] (libbot_lib_interface) StdoutLine: {'line': b'running egg_info\n'}
+[3.312623] (libbot_lib_interface) StdoutLine: {'line': b'writing ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/PKG-INFO\n'}
+[3.313728] (libbot_lib_interface) StdoutLine: {'line': b'writing dependency_links to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/dependency_links.txt\n'}
+[3.314053] (libbot_lib_interface) StdoutLine: {'line': b'writing entry points to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/entry_points.txt\n'}
+[3.314393] (libbot_lib_interface) StdoutLine: {'line': b'writing requirements to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/requires.txt\n'}
+[3.314632] (libbot_lib_interface) StdoutLine: {'line': b'writing top-level names to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/top_level.txt\n'}
+[3.333680] (-) TimerEvent: {}
+[3.410850] (libbot_lib_interface) StdoutLine: {'line': b"reading manifest file '../../build/libbot_lib_interface/libbot_lib_interface.egg-info/SOURCES.txt'\n"}
+[3.412079] (libbot_lib_interface) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.414032] (libbot_lib_interface) StdoutLine: {'line': b"writing manifest file '../../build/libbot_lib_interface/libbot_lib_interface.egg-info/SOURCES.txt'\n"}
+[3.414344] (libbot_lib_interface) StdoutLine: {'line': b'running build\n'}
+[3.414537] (libbot_lib_interface) StdoutLine: {'line': b'running build_py\n'}
+[3.414817] (libbot_lib_interface) StdoutLine: {'line': b'copying libbot_lib_interface/BookManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface\n'}
+[3.415414] (libbot_lib_interface) StdoutLine: {'line': b'copying libbot_lib_interface/UserManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface\n'}
+[3.416275] (libbot_lib_interface) StdoutLine: {'line': b'copying libbot_lib_interface/library_server.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface\n'}
+[3.416838] (libbot_lib_interface) StdoutLine: {'line': b'copying libbot_lib_interface/door_trajectory_publisher.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface\n'}
+[3.417709] (libbot_lib_interface) StdoutLine: {'line': b'copying libbot_lib_interface/StaffManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface\n'}
+[3.420004] (libbot_lib_interface) StdoutLine: {'line': b'copying libbot_lib_interface/__init__.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface\n'}
+[3.421743] (libbot_lib_interface) StdoutLine: {'line': b'copying libbot_lib_interface/RoomManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface\n'}
+[3.423006] (libbot_lib_interface) StdoutLine: {'line': b'running install\n'}
+[3.433823] (-) TimerEvent: {}
+[3.437335] (libbot_lib_interface) StdoutLine: {'line': b'running install_lib\n'}
+[3.484024] (libbot_lib_interface) StdoutLine: {'line': b'copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/BookManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface\n'}
+[3.485160] (libbot_lib_interface) StdoutLine: {'line': b'copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/UserManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface\n'}
+[3.485595] (libbot_lib_interface) StdoutLine: {'line': b'copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/library_server.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface\n'}
+[3.485871] (libbot_lib_interface) StdoutLine: {'line': b'copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/door_trajectory_publisher.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface\n'}
+[3.486041] (libbot_lib_interface) StdoutLine: {'line': b'copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/StaffManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface\n'}
+[3.486245] (libbot_lib_interface) StdoutLine: {'line': b'copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/__init__.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface\n'}
+[3.486503] (libbot_lib_interface) StdoutLine: {'line': b'copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/RoomManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface\n'}
+[3.488331] (libbot_lib_interface) StdoutLine: {'line': b'byte-compiling /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface/library_server.py to library_server.cpython-312.pyc\n'}
+[3.494511] (libbot_lib_interface) StdoutLine: {'line': b'running install_data\n'}
+[3.495629] (libbot_lib_interface) StdoutLine: {'line': b'copying resource/libbot_lib_interface -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/share/ament_index/resource_index/packages\n'}
+[3.495968] (libbot_lib_interface) StdoutLine: {'line': b'copying package.xml -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/share/libbot_lib_interface\n'}
+[3.496174] (libbot_lib_interface) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.534001] (-) TimerEvent: {}
+[3.546405] (libbot_lib_interface) StdoutLine: {'line': b"removing '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.546751] (libbot_lib_interface) StdoutLine: {'line': b'Copying ../../build/libbot_lib_interface/libbot_lib_interface.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface-0.0.0-py3.12.egg-info\n'}
+[3.548351] (libbot_lib_interface) StdoutLine: {'line': b'running install_scripts\n'}
+[3.634659] (-) TimerEvent: {}
+[3.736872] (-) TimerEvent: {}
+[3.837474] (-) TimerEvent: {}
+[3.876546] (libbot_lib_interface) StdoutLine: {'line': b'Installing door_trajectory_publisher script to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/libbot_lib_interface\n'}
+[3.877247] (libbot_lib_interface) StdoutLine: {'line': b'Installing library_server script to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/libbot_lib_interface\n'}
+[3.879003] (libbot_lib_interface) StdoutLine: {'line': b"writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/install.log'\n"}
+[3.937692] (-) TimerEvent: {}
+[4.038427] (-) TimerEvent: {}
+[4.046459] (libbot_lib_interface) CommandEnded: {'returncode': 0}
+[4.083998] (libbot_lib_interface) JobEnded: {'identifier': 'libbot_lib_interface', 'rc': 0}
+[4.087393] (-) EventReactorShutdown: {}

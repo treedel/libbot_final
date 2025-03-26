@@ -1,0 +1,21 @@
+[1.417s] Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_mapping': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_mapping build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping/install.log --single-version-externally-managed install_data
+[1.871s] running egg_info
+[1.905s] writing ../../build/libbot_mapping/libbot_mapping.egg-info/PKG-INFO
+[1.905s] writing dependency_links to ../../build/libbot_mapping/libbot_mapping.egg-info/dependency_links.txt
+[1.906s] writing requirements to ../../build/libbot_mapping/libbot_mapping.egg-info/requires.txt
+[1.906s] writing top-level names to ../../build/libbot_mapping/libbot_mapping.egg-info/top_level.txt
+[1.974s] reading manifest file '../../build/libbot_mapping/libbot_mapping.egg-info/SOURCES.txt'
+[1.975s] adding license file 'LICENSE'
+[1.976s] writing manifest file '../../build/libbot_mapping/libbot_mapping.egg-info/SOURCES.txt'
+[1.977s] running build
+[1.977s] running build_py
+[1.977s] running install
+[1.987s] running install_lib
+[2.022s] running install_data
+[2.022s] copying config/mapper_params_online_async.yaml -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/share/libbot_mapping/config
+[2.022s] running install_egg_info
+[2.058s] removing '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/lib/python3.12/site-packages/libbot_mapping-0.0.0-py3.12.egg-info' (and everything under it)
+[2.059s] Copying ../../build/libbot_mapping/libbot_mapping.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/lib/python3.12/site-packages/libbot_mapping-0.0.0-py3.12.egg-info
+[2.061s] running install_scripts
+[2.290s] writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping/install.log'
+[2.342s] Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_mapping' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_mapping build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping/install.log --single-version-externally-managed install_data

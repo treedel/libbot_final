@@ -1,0 +1,3 @@
+[console_scripts]
+door_trajectory_publisher = libbot_lib_interface.door_trajectory_publisher:main
+library_server = libbot_lib_interface.library_server:main

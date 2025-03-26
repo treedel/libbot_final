@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000502] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.000613] (-) JobUnselected: {'identifier': 'libbot_bringup'}
+[0.000690] (-) JobUnselected: {'identifier': 'libbot_gazebo'}
+[0.000756] (-) JobUnselected: {'identifier': 'libbot_lib_interface'}
+[0.000822] (-) JobUnselected: {'identifier': 'libbot_navigation'}
+[0.000886] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000947] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.001010] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001076] (libbot_mapping) JobQueued: {'identifier': 'libbot_mapping', 'dependencies': OrderedDict()}
+[0.001148] (libbot_mapping) JobStarted: {'identifier': 'libbot_mapping'}
+[0.098954] (-) TimerEvent: {}
+[0.199451] (-) TimerEvent: {}
+[0.299874] (-) TimerEvent: {}
+[0.400296] (-) TimerEvent: {}
+[0.500770] (-) TimerEvent: {}
+[0.601177] (-) TimerEvent: {}
+[0.701637] (-) TimerEvent: {}
+[0.802064] (-) TimerEvent: {}
+[0.902535] (-) TimerEvent: {}
+[1.002927] (-) TimerEvent: {}
+[1.103389] (-) TimerEvent: {}
+[1.203817] (-) TimerEvent: {}
+[1.304212] (-) TimerEvent: {}
+[1.404708] (-) TimerEvent: {}
+[1.415469] (libbot_mapping) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/libbot_mapping', 'build', '--build-base', '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping/build', 'install', '--record', '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_mapping', 'env': {'USER': 'devesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/lib:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/devesh', 'OLDPWD': '/home/devesh/Butterfly/project_2/libbot_final', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '2195', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install', 'LOGNAME': 'devesh', '_P9K_SSH_TTY': '/dev/pts/3', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'devesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim-linux64/bin', 'SESSION_MANAGER': 'local/Devesh-O15:@/tmp/.ICE-unix/2142,unix/Devesh-O15:/tmp/.ICE-unix/2142', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/34fbba43_5fd1_4f97_bac0_61e103bf1b1b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.144', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_CONFIG_HOME': '/home/devesh/.config/', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ZDOTDIR': '/home/devesh/.config//zsh/', '_P9K_TTY': '/dev/pts/3', 'PYTHONPATH': '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.504874] (-) TimerEvent: {}
+[1.605335] (-) TimerEvent: {}
+[1.705766] (-) TimerEvent: {}
+[1.806165] (-) TimerEvent: {}
+[1.871627] (libbot_mapping) StdoutLine: {'line': b'running egg_info\n'}
+[1.905571] (libbot_mapping) StdoutLine: {'line': b'writing ../../build/libbot_mapping/libbot_mapping.egg-info/PKG-INFO\n'}
+[1.906078] (libbot_mapping) StdoutLine: {'line': b'writing dependency_links to ../../build/libbot_mapping/libbot_mapping.egg-info/dependency_links.txt\n'}
+[1.906291] (-) TimerEvent: {}
+[1.906644] (libbot_mapping) StdoutLine: {'line': b'writing requirements to ../../build/libbot_mapping/libbot_mapping.egg-info/requires.txt\n'}
+[1.906896] (libbot_mapping) StdoutLine: {'line': b'writing top-level names to ../../build/libbot_mapping/libbot_mapping.egg-info/top_level.txt\n'}
+[1.975381] (libbot_mapping) StdoutLine: {'line': b"reading manifest file '../../build/libbot_mapping/libbot_mapping.egg-info/SOURCES.txt'\n"}
+[1.976409] (libbot_mapping) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.977178] (libbot_mapping) StdoutLine: {'line': b"writing manifest file '../../build/libbot_mapping/libbot_mapping.egg-info/SOURCES.txt'\n"}
+[1.977612] (libbot_mapping) StdoutLine: {'line': b'running build\n'}
+[1.977851] (libbot_mapping) StdoutLine: {'line': b'running build_py\n'}
+[1.978136] (libbot_mapping) StdoutLine: {'line': b'running install\n'}
+[1.987734] (libbot_mapping) StdoutLine: {'line': b'running install_lib\n'}
+[2.006470] (-) TimerEvent: {}
+[2.022370] (libbot_mapping) StdoutLine: {'line': b'running install_data\n'}
+[2.022931] (libbot_mapping) StdoutLine: {'line': b'copying config/mapper_params_online_async.yaml -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/share/libbot_mapping/config\n'}
+[2.023160] (libbot_mapping) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.059053] (libbot_mapping) StdoutLine: {'line': b"removing '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/lib/python3.12/site-packages/libbot_mapping-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.059693] (libbot_mapping) StdoutLine: {'line': b'Copying ../../build/libbot_mapping/libbot_mapping.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/lib/python3.12/site-packages/libbot_mapping-0.0.0-py3.12.egg-info\n'}
+[2.061792] (libbot_mapping) StdoutLine: {'line': b'running install_scripts\n'}
+[2.106650] (-) TimerEvent: {}
+[2.207044] (-) TimerEvent: {}
+[2.291008] (libbot_mapping) StdoutLine: {'line': b"writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_mapping/install.log'\n"}
+[2.307222] (-) TimerEvent: {}
+[2.342599] (libbot_mapping) CommandEnded: {'returncode': 0}
+[2.366238] (libbot_mapping) JobEnded: {'identifier': 'libbot_mapping', 'rc': 0}
+[2.368152] (-) EventReactorShutdown: {}

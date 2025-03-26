@@ -1,0 +1,23 @@
+[3.235s] Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_lib_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_lib_interface build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/install.log --single-version-externally-managed install_data
+[3.669s] running egg_info
+[3.701s] writing ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/PKG-INFO
+[3.702s] writing dependency_links to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/dependency_links.txt
+[3.703s] writing entry points to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/entry_points.txt
+[3.703s] writing requirements to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/requires.txt
+[3.703s] writing top-level names to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/top_level.txt
+[3.768s] reading manifest file '../../build/libbot_lib_interface/libbot_lib_interface.egg-info/SOURCES.txt'
+[3.769s] adding license file 'LICENSE'
+[3.770s] writing manifest file '../../build/libbot_lib_interface/libbot_lib_interface.egg-info/SOURCES.txt'
+[3.770s] running build
+[3.770s] running build_py
+[3.772s] running install
+[3.780s] running install_lib
+[3.815s] running install_data
+[3.815s] running install_egg_info
+[3.849s] removing '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface-0.0.0-py3.12.egg-info' (and everything under it)
+[3.850s] Copying ../../build/libbot_lib_interface/libbot_lib_interface.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface-0.0.0-py3.12.egg-info
+[3.852s] running install_scripts
+[4.069s] Installing door_trajectory_publisher script to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/libbot_lib_interface
+[4.070s] Installing library_server script to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/libbot_lib_interface
+[4.070s] writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/install.log'
+[4.155s] Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_lib_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_lib_interface build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+[2.069s] Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_lib_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_lib_interface build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/install.log --single-version-externally-managed install_data
+[2.731s] running egg_info
+[2.773s] writing ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/PKG-INFO
+[2.774s] writing dependency_links to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/dependency_links.txt
+[2.775s] writing entry points to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/entry_points.txt
+[2.776s] writing requirements to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/requires.txt
+[2.777s] writing top-level names to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/top_level.txt
+[2.857s] reading manifest file '../../build/libbot_lib_interface/libbot_lib_interface.egg-info/SOURCES.txt'
+[2.857s] adding license file 'LICENSE'
+[2.858s] writing manifest file '../../build/libbot_lib_interface/libbot_lib_interface.egg-info/SOURCES.txt'
+[2.859s] running build
+[2.861s] running build_py
+[2.863s] copying libbot_lib_interface/RobotControl.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface
+[2.864s] running install
+[2.875s] running install_lib
+[2.915s] copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/RobotControl.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface
+[2.916s] byte-compiling /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface/RobotControl.py to RobotControl.cpython-312.pyc
+[2.920s] running install_data
+[2.921s] running install_egg_info
+[2.962s] removing '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface-0.0.0-py3.12.egg-info' (and everything under it)
+[2.963s] Copying ../../build/libbot_lib_interface/libbot_lib_interface.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface-0.0.0-py3.12.egg-info
+[2.965s] running install_scripts
+[3.252s] Installing door_trajectory_publisher script to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/libbot_lib_interface
+[3.253s] Installing library_server script to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/libbot_lib_interface
+[3.254s] writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/install.log'
+[3.424s] Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_lib_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_lib_interface build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/install.log --single-version-externally-managed install_data

@@ -1,0 +1,499 @@
+[0.104s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.104s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x709fb19a4530>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x709fb192a510>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x709fb192a510>>, mixin_verb=('build',))
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.142s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/devesh/Butterfly/project_2/libbot_final'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_bringup) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_bringup) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_bringup) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_bringup) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_bringup) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_bringup) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_bringup) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_bringup) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libbot_bringup' with type 'ros.ament_python' and name 'libbot_bringup'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_gazebo) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_gazebo) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_gazebo) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_gazebo) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_gazebo) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_gazebo) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_gazebo) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/libbot_gazebo) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libbot_gazebo' with type 'ros.ament_python' and name 'libbot_gazebo'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.196s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/devesh/Butterfly/project_2/libbot_final/install
+[0.198s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 441 installed packages in /opt/ros/jazzy
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'drive_base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs', 'merge_install': False, 'path': '/home/devesh/Butterfly/project_2/libbot_final/src/uros/drive_base/drive_base_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'libbot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'libbot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'libbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'libbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'libbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'libbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'libbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'libbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'libbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'libbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup', 'merge_install': False, 'path': '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'libbot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'libbot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'libbot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'libbot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'libbot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'libbot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'libbot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'libbot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'libbot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'libbot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo', 'merge_install': False, 'path': '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/devesh/Butterfly/project_2/libbot_final/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.258s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent', 'merge_install': False, 'path': '/home/devesh/Butterfly/project_2/libbot_final/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[0.258s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devesh/Butterfly/project_2/libbot_final/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devesh/Butterfly/project_2/libbot_final/src/uros/micro_ros_msgs'
+[0.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devesh/Butterfly/project_2/libbot_final/src/uros/drive_base/drive_base_msgs' with build type 'ament_cmake'
+[0.265s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devesh/Butterfly/project_2/libbot_final/src/uros/drive_base/drive_base_msgs'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_bringup' with build type 'ament_python'
+[0.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('libbot_bringup', 'ament_prefix_path')
+[0.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/hook/ament_prefix_path.ps1'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/hook/ament_prefix_path.dsv'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/hook/ament_prefix_path.sh'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_gazebo' with build type 'ament_python'
+[0.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('libbot_gazebo', 'ament_prefix_path')
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/hook/ament_prefix_path.ps1'
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/hook/ament_prefix_path.dsv'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/hook/ament_prefix_path.sh'
+[0.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/devesh/Butterfly/project_2/libbot_final/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs
+[0.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/devesh/Butterfly/project_2/libbot_final/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs
+[0.524s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_bringup'
+[0.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_gazebo'
+[0.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_bringup build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/install.log --single-version-externally-managed install_data
+[1.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_gazebo build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/install.log --single-version-externally-managed install_data
+[2.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_bringup build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/install.log --single-version-externally-managed install_data
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup' for CMake module files
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup' for CMake config files
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/bin'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/pkgconfig/libbot_bringup.pc'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/python3.12/site-packages'
+[2.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('libbot_bringup', 'pythonpath')
+[2.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/hook/pythonpath.ps1'
+[2.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/hook/pythonpath.dsv'
+[2.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/hook/pythonpath.sh'
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/bin'
+[2.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libbot_bringup)
+[2.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/package.ps1'
+[2.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/package.dsv'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/package.sh'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/package.bash'
+[2.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/package.zsh'
+[2.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/colcon-core/packages/libbot_bringup)
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo' for CMake module files
+[2.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_gazebo build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/install.log --single-version-externally-managed install_data
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo' for CMake config files
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib'
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/bin'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/pkgconfig/libbot_gazebo.pc'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages'
+[2.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('libbot_gazebo', 'pythonpath')
+[2.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/hook/pythonpath.ps1'
+[2.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/hook/pythonpath.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/hook/pythonpath.sh'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/bin'
+[2.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libbot_gazebo)
+[2.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/package.ps1'
+[2.053s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/package.dsv'
+[2.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/package.sh'
+[2.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/package.bash'
+[2.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo/package.zsh'
+[2.056s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/colcon-core/packages/libbot_gazebo)
+[4.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/devesh/Butterfly/project_2/libbot_final/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs
+[4.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs -- -j12 -l12
+[4.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/devesh/Butterfly/project_2/libbot_final/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs
+[4.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs -- -j12 -l12
+[8.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs -- -j12 -l12
+[8.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs
+[8.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[8.918s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs' for CMake module files
+[8.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs
+[8.920s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs' for CMake config files
+[8.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[8.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[8.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[8.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[8.923s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib'
+[8.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[8.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[8.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[8.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[8.925s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/bin'
+[8.925s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[8.925s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages'
+[8.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[8.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[8.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[8.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[8.926s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/bin'
+[8.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[8.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[8.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[8.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[8.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[8.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[8.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[8.929s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs' for CMake module files
+[8.930s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs' for CMake config files
+[8.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[8.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[8.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[8.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[8.932s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib'
+[8.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[8.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[8.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[8.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[8.933s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/bin'
+[8.933s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[8.934s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages'
+[8.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[8.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[8.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[8.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[8.935s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/bin'
+[8.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[8.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[8.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[8.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[8.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[8.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[8.938s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devesh/Butterfly/project_2/libbot_final/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[8.938s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devesh/Butterfly/project_2/libbot_final/src/uros/micro-ROS-Agent/micro_ros_agent'
+[8.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/devesh/Butterfly/project_2/libbot_final/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent
+[9.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/devesh/Butterfly/project_2/libbot_final/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent
+[9.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent -- -j12 -l12
+[10.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs -- -j12 -l12
+[10.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs
+[10.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[10.546s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs' for CMake module files
+[10.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/devesh/Butterfly/project_2/libbot_final/build/drive_base_msgs
+[10.548s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs' for CMake config files
+[10.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[10.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[10.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[10.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[10.552s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib'
+[10.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[10.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[10.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[10.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[10.554s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/bin'
+[10.554s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[10.554s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages'
+[10.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[10.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[10.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[10.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[10.557s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/bin'
+[10.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[10.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[10.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[10.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[10.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[10.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[10.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[10.563s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs' for CMake module files
+[10.564s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs' for CMake config files
+[10.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[10.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[10.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[10.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[10.568s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib'
+[10.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[10.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[10.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[10.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[10.570s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/bin'
+[10.571s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[10.571s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages'
+[10.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[10.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[10.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[10.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[10.574s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/bin'
+[10.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[10.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[10.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[10.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[10.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[10.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[67.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent -- -j12 -l12
+[67.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent
+[67.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[67.096s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent' for CMake module files
+[67.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_agent
+[67.097s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent' for CMake config files
+[67.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[67.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[67.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[67.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[67.103s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/lib'
+[67.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[67.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[67.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[67.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[67.105s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/bin'
+[67.106s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[67.106s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/lib/python3.12/site-packages'
+[67.106s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/bin'
+[67.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[67.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[67.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[67.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[67.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[67.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[67.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[67.113s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent' for CMake module files
+[67.114s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent' for CMake config files
+[67.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[67.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[67.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[67.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[67.120s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/lib'
+[67.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[67.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[67.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[67.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[67.123s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/bin'
+[67.123s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[67.123s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/lib/python3.12/site-packages'
+[67.124s] Level 1:colcon.colcon_core.environment:checking '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/bin'
+[67.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[67.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[67.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[67.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[67.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[67.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[67.129s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[67.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[67.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[67.131s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[67.178s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[67.178s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[67.178s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[67.222s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[67.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devesh/Butterfly/project_2/libbot_final/install/local_setup.ps1'
+[67.224s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/devesh/Butterfly/project_2/libbot_final/install/_local_setup_util_ps1.py'
+[67.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devesh/Butterfly/project_2/libbot_final/install/setup.ps1'
+[67.226s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devesh/Butterfly/project_2/libbot_final/install/local_setup.sh'
+[67.227s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/devesh/Butterfly/project_2/libbot_final/install/_local_setup_util_sh.py'
+[67.228s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devesh/Butterfly/project_2/libbot_final/install/setup.sh'
+[67.229s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devesh/Butterfly/project_2/libbot_final/install/local_setup.bash'
+[67.229s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devesh/Butterfly/project_2/libbot_final/install/setup.bash'
+[67.231s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devesh/Butterfly/project_2/libbot_final/install/local_setup.zsh'
+[67.231s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devesh/Butterfly/project_2/libbot_final/install/setup.zsh'

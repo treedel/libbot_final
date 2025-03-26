@@ -1,0 +1,38 @@
+running egg_info
+writing ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/entry_points.txt
+writing requirements to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/requires.txt
+writing top-level names to ../../build/libbot_lib_interface/libbot_lib_interface.egg-info/top_level.txt
+reading manifest file '../../build/libbot_lib_interface/libbot_lib_interface.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/libbot_lib_interface/libbot_lib_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+copying libbot_lib_interface/BookManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface
+copying libbot_lib_interface/UserManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface
+copying libbot_lib_interface/library_server.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface
+copying libbot_lib_interface/door_trajectory_publisher.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface
+copying libbot_lib_interface/StaffManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface
+copying libbot_lib_interface/__init__.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface
+copying libbot_lib_interface/RoomManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface
+running install
+running install_lib
+copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/BookManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface
+copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/UserManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface
+copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/library_server.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface
+copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/door_trajectory_publisher.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface
+copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/StaffManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface
+copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/__init__.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface
+copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/build/lib/libbot_lib_interface/RoomManagement.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface
+byte-compiling /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface/library_server.py to library_server.cpython-312.pyc
+running install_data
+copying resource/libbot_lib_interface -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/share/libbot_lib_interface
+running install_egg_info
+removing '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/libbot_lib_interface/libbot_lib_interface.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages/libbot_lib_interface-0.0.0-py3.12.egg-info
+running install_scripts
+Installing door_trajectory_publisher script to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/libbot_lib_interface
+Installing library_server script to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/libbot_lib_interface
+writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_lib_interface/install.log'

@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000835] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.000926] (-) JobUnselected: {'identifier': 'libbot_bringup'}
+[0.000982] (-) JobUnselected: {'identifier': 'libbot_gazebo'}
+[0.001032] (-) JobUnselected: {'identifier': 'libbot_lib_interface'}
+[0.001080] (-) JobUnselected: {'identifier': 'libbot_mapping'}
+[0.001127] (-) JobUnselected: {'identifier': 'libbot_navigation'}
+[0.001173] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.001220] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.001269] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.001324] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.015450] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.016572] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.017026] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2', '--', '-j12', '-l12'], 'cwd': '/home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2', 'env': OrderedDict({'USER': 'devesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/lib:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/devesh', 'OLDPWD': '/home/devesh', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '2186', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install', 'LOGNAME': 'devesh', '_P9K_SSH_TTY': '/dev/pts/0', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'devesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim-linux64/bin', 'SESSION_MANAGER': 'local/Devesh-O15:@/tmp/.ICE-unix/2139,unix/Devesh-O15:/tmp/.ICE-unix/2139', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/62045cb3_c281_4c24_895b_694e62e2f3ef', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.137', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_CONFIG_HOME': '/home/devesh/.config/', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ZDOTDIR': '/home/devesh/.config//zsh/', '_P9K_TTY': '/dev/pts/0', 'PYTHONPATH': '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy'}), 'shell': False}
+[0.099717] (-) TimerEvent: {}
+[0.163255] (sllidar_ros2) StdoutLine: {'line': b'[ 15%] Built target sllidar_client\n'}
+[0.163523] (sllidar_ros2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[0.199832] (-) TimerEvent: {}
+[0.300125] (-) TimerEvent: {}
+[0.400428] (-) TimerEvent: {}
+[0.500745] (-) TimerEvent: {}
+[0.601044] (-) TimerEvent: {}
+[0.701404] (-) TimerEvent: {}
+[0.801739] (-) TimerEvent: {}
+[0.902164] (-) TimerEvent: {}
+[1.002569] (-) TimerEvent: {}
+[1.102979] (-) TimerEvent: {}
+[1.203442] (-) TimerEvent: {}
+[1.303874] (-) TimerEvent: {}
+[1.404194] (-) TimerEvent: {}
+[1.504571] (-) TimerEvent: {}
+[1.604885] (-) TimerEvent: {}
+[1.705208] (-) TimerEvent: {}
+[1.805548] (-) TimerEvent: {}
+[1.905864] (-) TimerEvent: {}
+[2.006188] (-) TimerEvent: {}
+[2.106545] (-) TimerEvent: {}
+[2.206929] (-) TimerEvent: {}
+[2.307507] (-) TimerEvent: {}
+[2.376581] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/devesh/Butterfly/project_2/libbot_final/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[2.376987] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devesh/Butterfly/project_2/libbot_final/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[2.377155] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devesh/Butterfly/project_2/libbot_final/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[2.377307] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devesh/Butterfly/project_2/libbot_final/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[2.377589] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devesh/Butterfly/project_2/libbot_final/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.377750] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.377892] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.378033] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devesh/Butterfly/project_2/libbot_final/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.378177] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.378316] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.407652] (-) TimerEvent: {}
+[2.508014] (-) TimerEvent: {}
+[2.608429] (-) TimerEvent: {}
+[2.708834] (-) TimerEvent: {}
+[2.809369] (-) TimerEvent: {}
+[2.909830] (-) TimerEvent: {}
+[3.010220] (-) TimerEvent: {}
+[3.110680] (-) TimerEvent: {}
+[3.211172] (-) TimerEvent: {}
+[3.311608] (-) TimerEvent: {}
+[3.411918] (-) TimerEvent: {}
+[3.512306] (-) TimerEvent: {}
+[3.612727] (-) TimerEvent: {}
+[3.713047] (-) TimerEvent: {}
+[3.813397] (-) TimerEvent: {}
+[3.913788] (-) TimerEvent: {}
+[4.014174] (-) TimerEvent: {}
+[4.114610] (-) TimerEvent: {}
+[4.214992] (-) TimerEvent: {}
+[4.315296] (-) TimerEvent: {}
+[4.415622] (-) TimerEvent: {}
+[4.515951] (-) TimerEvent: {}
+[4.616323] (-) TimerEvent: {}
+[4.716766] (-) TimerEvent: {}
+[4.817170] (-) TimerEvent: {}
+[4.917539] (-) TimerEvent: {}
+[5.017895] (-) TimerEvent: {}
+[5.118419] (-) TimerEvent: {}
+[5.218880] (-) TimerEvent: {}
+[5.319278] (-) TimerEvent: {}
+[5.396380] (sllidar_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable sllidar_node\x1b[0m\n'}
+[5.419431] (-) TimerEvent: {}
+[5.519825] (-) TimerEvent: {}
+[5.620280] (-) TimerEvent: {}
+[5.720804] (-) TimerEvent: {}
+[5.763251] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[5.783959] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[5.785223] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[5.801065] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2'], 'cwd': '/home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2', 'env': OrderedDict({'USER': 'devesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent/lib:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/devesh', 'OLDPWD': '/home/devesh', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '2186', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install', 'LOGNAME': 'devesh', '_P9K_SSH_TTY': '/dev/pts/0', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'devesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim-linux64/bin', 'SESSION_MANAGER': 'local/Devesh-O15:@/tmp/.ICE-unix/2139,unix/Devesh-O15:/tmp/.ICE-unix/2139', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/62045cb3_c281_4c24_895b_694e62e2f3ef', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.137', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_CONFIG_HOME': '/home/devesh/.config/', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/devesh/Butterfly/project_2/libbot_final/build/sllidar_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ZDOTDIR': '/home/devesh/.config//zsh/', '_P9K_TTY': '/dev/pts/0', 'PYTHONPATH': '/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/python3.12/site-packages:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_agent:/home/devesh/Butterfly/project_2/libbot_final/install/micro_ros_msgs:/home/devesh/Butterfly/project_2/libbot_final/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_mapping:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_lib_interface:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup:/opt/ros/jazzy'}), 'shell': False}
+[5.813652] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.814737] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[5.815011] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[5.815235] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[5.815487] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[5.815771] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[5.815986] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[5.816194] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[5.816434] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[5.816673] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[5.816882] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[5.817089] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[5.817295] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[5.817530] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[5.817742] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[5.817948] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[5.818155] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[5.818379] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[5.818608] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[5.818912] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[5.819125] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[5.819372] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[5.819602] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[5.819826] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[5.820040] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[5.820461] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[5.820690] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[5.820897] (-) TimerEvent: {}
+[5.821168] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[5.821444] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[5.821677] (sllidar_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node" to ""\n'}
+[5.821887] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[5.822117] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[5.822360] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[5.822885] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[5.823229] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[5.824394] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[5.824850] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[5.825072] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[5.825283] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[5.825567] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[5.825787] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[5.826011] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[5.826227] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[5.826475] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.826699] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.826912] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[5.827122] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[5.827350] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/devesh/Butterfly/project_2/libbot_final/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[5.827590] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[5.866677] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[5.867768] (-) EventReactorShutdown: {}

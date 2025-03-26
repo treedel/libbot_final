@@ -1,0 +1,9 @@
+{
+  "package_name": "micro_ros_msgs",
+  "output_dir": "/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs/rosidl_generator_type_description/micro_ros_msgs",
+  "idl_tuples": [
+    "/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs:msg/Graph.idl",
+    "/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs:msg/Node.idl",
+    "/home/devesh/Butterfly/project_2/libbot_final/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs:msg/Entity.idl"
+  ]
+}

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/libbot_gazebo/libbot_gazebo.egg-info
+writing ../../build/libbot_gazebo/libbot_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/libbot_gazebo/libbot_gazebo.egg-info/dependency_links.txt
+writing requirements to ../../build/libbot_gazebo/libbot_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/libbot_gazebo/libbot_gazebo.egg-info/top_level.txt
+writing manifest file '../../build/libbot_gazebo/libbot_gazebo.egg-info/SOURCES.txt'
+reading manifest file '../../build/libbot_gazebo/libbot_gazebo.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/libbot_gazebo/libbot_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/build
+creating /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/build/lib
+creating /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/build/lib/libbot_gazebo
+copying libbot_gazebo/__init__.py -> /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/build/lib/libbot_gazebo
+running install
+running install_lib
+creating /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages/libbot_gazebo
+copying /home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/build/lib/libbot_gazebo/__init__.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages/libbot_gazebo
+byte-compiling /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages/libbot_gazebo/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/ament_index
+creating /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/ament_index/resource_index
+creating /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/ament_index/resource_index/packages
+copying resource/libbot_gazebo -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/share/libbot_gazebo
+running install_egg_info
+Copying ../../build/libbot_gazebo/libbot_gazebo.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_gazebo/lib/python3.12/site-packages/libbot_gazebo-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_gazebo/install.log'

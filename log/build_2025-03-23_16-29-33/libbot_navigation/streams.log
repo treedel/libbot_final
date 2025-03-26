@@ -1,0 +1,21 @@
+[4.950s] Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_navigation build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/install.log --single-version-externally-managed install_data
+[5.866s] running egg_info
+[5.933s] writing ../../build/libbot_navigation/libbot_navigation.egg-info/PKG-INFO
+[5.933s] writing dependency_links to ../../build/libbot_navigation/libbot_navigation.egg-info/dependency_links.txt
+[5.933s] writing requirements to ../../build/libbot_navigation/libbot_navigation.egg-info/requires.txt
+[5.935s] writing top-level names to ../../build/libbot_navigation/libbot_navigation.egg-info/top_level.txt
+[6.044s] reading manifest file '../../build/libbot_navigation/libbot_navigation.egg-info/SOURCES.txt'
+[6.046s] adding license file 'LICENSE'
+[6.048s] writing manifest file '../../build/libbot_navigation/libbot_navigation.egg-info/SOURCES.txt'
+[6.049s] running build
+[6.051s] running build_py
+[6.051s] running install
+[6.066s] running install_lib
+[6.131s] running install_data
+[6.133s] copying launch/view_nav.launch.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/share/libbot_navigation/launch
+[6.135s] running install_egg_info
+[6.195s] removing '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages/libbot_navigation-0.0.0-py3.12.egg-info' (and everything under it)
+[6.200s] Copying ../../build/libbot_navigation/libbot_navigation.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages/libbot_navigation-0.0.0-py3.12.egg-info
+[6.201s] running install_scripts
+[6.680s] writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/install.log'
+[6.942s] Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_navigation build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_navigation/install.log --single-version-externally-managed install_data

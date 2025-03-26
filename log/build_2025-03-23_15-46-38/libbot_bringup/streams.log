@@ -1,0 +1,21 @@
+[2.321s] Invoking command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_bringup build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/install.log --single-version-externally-managed install_data
+[2.649s] running egg_info
+[2.671s] writing ../../build/libbot_bringup/libbot_bringup.egg-info/PKG-INFO
+[2.672s] writing dependency_links to ../../build/libbot_bringup/libbot_bringup.egg-info/dependency_links.txt
+[2.672s] writing requirements to ../../build/libbot_bringup/libbot_bringup.egg-info/requires.txt
+[2.672s] writing top-level names to ../../build/libbot_bringup/libbot_bringup.egg-info/top_level.txt
+[2.720s] reading manifest file '../../build/libbot_bringup/libbot_bringup.egg-info/SOURCES.txt'
+[2.721s] adding license file 'LICENSE'
+[2.721s] writing manifest file '../../build/libbot_bringup/libbot_bringup.egg-info/SOURCES.txt'
+[2.722s] running build
+[2.722s] running build_py
+[2.722s] running install
+[2.729s] running install_lib
+[2.753s] running install_data
+[2.753s] copying launch/bringup.launch.py -> /home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/share/libbot_bringup/launch
+[2.754s] running install_egg_info
+[2.779s] removing '/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/python3.12/site-packages/libbot_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[2.780s] Copying ../../build/libbot_bringup/libbot_bringup.egg-info to /home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/python3.12/site-packages/libbot_bringup-0.0.0-py3.12.egg-info
+[2.781s] running install_scripts
+[2.940s] writing list of installed files to '/home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/install.log'
+[3.023s] Invoked command in '/home/devesh/Butterfly/project_2/libbot_final/src/libbot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devesh/Butterfly/project_2/libbot_final/install/libbot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/libbot_bringup build --build-base /home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/build install --record /home/devesh/Butterfly/project_2/libbot_final/build/libbot_bringup/install.log --single-version-externally-managed install_data
