@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="libbot_bringup">
+
+    <!-- Constants -->
+    <xacro:property name="chassis_length" value="0.36" />
+    <xacro:property name="chassis_breadth" value="0.36" />
+    <!-- <xacro:property name="chassis_breadth" value="0.10" /> -->
+    <xacro:property name="chassis_height" value="0.008" />
+
+    <xacro:property name="payload_mass" value="4.0" />
+    <xacro:property name="frame_mass" value="2.0" />
+
+    <xacro:property name="wheel_length" value="0.038" />
+    <xacro:property name="wheel_radius" value="0.035" />
+    <xacro:property name="chassis_wheel_offset_height" value="0.01" />
+    <xacro:property name="chassis_wheel_offset" value="0.1" />
+    <xacro:property name="wheel_mass" value="0.1" />
+
+    <xacro:property name="caster_pos_x" value="-0.1" />
+    <xacro:property name="caster_pos_y" value="0.005" />
+
+    <xacro:property name="door_length" value="${0.320-0.008}" />
+    <xacro:property name="door_breadth" value="0.150" />
+    <xacro:property name="door_height" value="0.004" />
+    <xacro:property name="door_pos" value="${0.022} 0 ${0.11}" />
+    <xacro:property name="door_joint_offset" value="${door_breadth/2}" />
+    <xacro:property name="door_mass" value="0.050" />
+
+    <!-- Wheel xacro -->
+    <xacro:macro name="wheel" params="prefix reflect_x reflect_y">
+
+        <link name="${prefix}_wheel_link">
+
+            <visual>
+                <geometry>
+                    <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+                </geometry>
+                <material name="black" />
+            </visual>
+            <collision>
+                <geometry>
+                    <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+                </geometry>
+            </collision>
+            <inertial>
+                <mass value="${wheel_mass}" />
+                <origin xyz="0 0 0" rpy="${pi/2} 0 0" />
+                <inertia
+                    ixx="${1/12*wheel_mass*(3*(wheel_radius*wheel_radius)+(wheel_length*wheel_length))}"
+                    iyy="${1/12*wheel_mass*(3*(wheel_radius*wheel_radius)+(wheel_length*wheel_length))}"
+                    izz="${1/2*wheel_mass*(wheel_radius*wheel_radius)}"
+                    ixy="0.0" iyz="0.0" ixz="0.0" />
+            </inertial>
+
+        </link>
+
+        <joint name="${prefix}_wheel_joint" type="continuous">
+
+            <parent link="base_link" />
+            <child link="${prefix}_wheel_link" />
+            <origin
+                xyz="${-reflect_x*((chassis_length/2)-chassis_wheel_offset)} ${-reflect_y*((chassis_breadth/2 + (wheel_length/2)))} 0.0"
+                rpy="${pi/2} 0 0" />
+            <axis xyz="0.0 0.0 -1.0" />
+            <limit effort="0.56" velocity="12.56" />
+
+        </joint>
+
+    </xacro:macro>
+
+    <!-- Frame -->
+    <link name="base_footprint">
+    </link>
+    <link name="base_link">
+
+        <visual>
+            <origin
+                xyz="${(chassis_length/2)} ${-(chassis_breadth/2)} ${chassis_height/2}"
+                rpy="0 0 ${pi/2}" />
+            <geometry>
+                <mesh filename="file://$(find libbot_bringup)/urdf/meshes/chassis_frame.stl" />
+            </geometry>
+            <material name="silver" />
+        </visual>
+        <collision>
+            <origin
+                xyz="${(chassis_length/2)} ${-(chassis_breadth/2)} ${chassis_height/2}"
+                rpy="0 0 ${pi/2}" />
+            <geometry>
+                <mesh filename="file://$(find libbot_bringup)/urdf/meshes/chassis_frame.stl" />
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0.028" rpy="0 0 ${pi/2}" />
+            <mass value="${frame_mass}" />
+            <inertia ixx="0.023"
+                iyy="0.025"
+                izz="0.043"
+                ixy="0.0" iyz="0.0" ixz="0.0" />
+        </inertial>
+
+    </link>
+    <joint name="base_joint" type="fixed">
+
+        <parent link="base_footprint" />
+        <child link="base_link" />
+
+    </joint>
+
+    <!-- Door -->
+    <link name="door_link">
+
+        <visual>
+            <origin xyz="0 -${door_joint_offset} 0" rpy="0 0 0" />
+            <geometry>
+                <box size="${door_length} ${door_breadth} ${door_height}" />
+            </geometry>
+            <material name="brown" />
+        </visual>
+        <collision>
+            <origin xyz="0 -${door_joint_offset} 0" rpy="0 0 0" />
+            <geometry>
+                <box size="${door_length} ${door_breadth} ${door_height}" />
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="${door_mass}" />
+            <inertia
+                ixx="${1/12*door_mass*((door_length*door_length)+(door_breadth*door_breadth))}"
+                iyy="${1/12*door_mass*((door_breadth*door_breadth)+(door_height*door_height))}"
+                izz="${1/12*door_mass*((door_length*door_length)+(door_height*door_height))}"
+                ixy="0.0" iyz="0.0" ixz="0.0" />
+        </inertial>
+
+    </link>
+    <joint name="door_joint" type="revolute">
+
+        <parent link="base_link" />
+        <child link="door_link" />
+        <origin
+            xyz="${door_pos}"
+            rpy="0 0 ${pi/2}" />
+        <axis xyz="-1.0 0.0 0.0" />
+        <limit upper="${pi/2}" lower="0.0" effort="10" velocity="1.0" />
+
+    </joint>
+
+    <!-- Wheels -->
+    <xacro:wheel prefix="right" reflect_x="-1" reflect_y="1" />
+    <xacro:wheel prefix="left" reflect_x="-1" reflect_y="-1" />
+
+    <!-- Caster wheel -->
+    <link name="caster_link">
+
+        <visual>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh filename="file://$(find libbot_bringup)/urdf/meshes/caster_wheel.stl" />
+            </geometry>
+            <material name="black" />
+        </visual>
+        <collision>
+            <origin
+                xyz="0.045 0.045 0"
+                rpy="0 0 0" />
+           <geometry>
+                <sphere radius="0.035" />
+            </geometry>
+        </collision>
+
+    </link>
+    <joint name="caster_joint" type="fixed">
+
+        <parent link="base_link" />
+        <child link="caster_link" />
+        <origin xyz="${caster_pos_x-0.04} ${-caster_pos_y-0.04} 0.0" rpy="0 0 0" />
+
+    </joint>
+
+</robot>
